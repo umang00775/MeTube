@@ -2,9 +2,10 @@
   "name": "backend-metube",
   "version": "1.0.0",
   "description": "This is back-end of meTube",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/umang00775/MeTube/issues"
   },
-  "homepage": "https://github.com/umang00775/MeTube#readme"
+  "homepage": "https://github.com/umang00775/MeTube#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
